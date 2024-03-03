@@ -5,7 +5,7 @@ const incButton = document.getElementById("incrementBtn");
 let counter = 0;
 
 incButton.addEventListener("click",() => {
-	alert(`Current counter value: ${counter}`)
+	alert(`${counter}`)
 	counter++;
 	counterPara.textContent = counter;
 })
